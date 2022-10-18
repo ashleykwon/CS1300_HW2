@@ -53,28 +53,40 @@
                    </div>
                     <h3 style="font-size:1.5rem">
                         Before designing a new version of the original website, I identified problems the website had in terms of learnability, 
-                        memorability, efficiency, 
+                        memorability, usability, 
                         users' mental model of the website, and accessibility. Here are my findings.
                     </h3>
 
                     <h3 style="font-size:1.5rem">This page is not learnable, because... </h3>
                     <ul>
-                        <li>The contents in the middle of the page seems to be a subset of contents in the long window on the left-hand side of the page. For example, the long window contains more information such as “Train travel in America”, but the window in the middle doesn’t.</li>
-                        <li>It’s unclear what classifies as “Great train journeys” and how the information this section conveys is different from the ones that were already covered by other sections.</li>
-                        <li>Section titles in the “Train travel in the UK, Europe & Worldwide” sections such as “Train travel UK & Ireland” do not look like users can click them, because being directly above the dropdown menu, they merely appear to be descriptions for the menu.</li>
-                        <li>Tabs like “Buy ferry tickets” and “Book a hotel” are misleading, because they lead to pages that show recommendations about websites where people can book ferry tickets or hotels, instead of allowing them to book them without leaving this website.</li>   
-                        <li>Although there are multiple dropdown menus, users can only manipulate one menu at a time, because changing values in one of the dropdown menus takes the user to another page, without giving a chance for users to enter values in more than one dropdown menu.</li>
+                        <li>The contents in the "Train travel in the UK, Europe, and Worldwide" section 
+                            compose a subset of contents in the long window on the left-hand side of the page.</li>
+                        <li>It’s unclear what types of train travels classify as “Great train journeys” 
+                            and how the information this section conveys differs from the ones that other sections already cover.</li>
+                        <li>Tabs like “Buy ferry tickets” and “Book a hotel” in the navbar are misleading, 
+                            because they lead to pages that show recommendations about 
+                            websites where people can book ferry tickets or hotels, 
+                            instead of allowing them to book them without leaving this website.</li>   
+                        <li>Although there are multiple dropdown menus, 
+                            users can only manipulate one menu at a time, 
+                            because changing values in one of the dropdown menus takes the user to another page, 
+                            without giving a chance for users to enter values in more than one dropdown menu or modify values they entered.</li>
                     </ul>
                
                     <h3 style="font-size:1.5rem">This page is not memorable, because... </h3>
                     <ul>
-                        <li>Users may not be able to remember that if they want to find information about traveling by train in Asia specifically, they need to scroll down the page and find a section titled “Train travel in Asia” in the narrow column on the left-hand side</li>
-                        <li>Users may not remember which dropdown menu to select in the middle window if they want to search for trains leaving from a specific city, because some dropdown menus show country names, while others show city names.</li>
+                        <li>Users may not be able to remember that if they want to find information 
+                            about traveling by train in Asia specifically, 
+                            they need to scroll down the page and 
+                            find a section titled “Train travel in Asia” in the narrow column on the left-hand side</li>
+                        <li>Users may not remember which dropdown menu to select in the "Train travel in the UK, Europe, and Worldwide" section
+                            if they want to search for trains leaving from a specific city, 
+                            because some dropdown menus show country names, while others show city names.</li>
                     </ul>
 
-                    <h3 style="font-size:1.5rem">This page is not efficient, because... </h3>
+                    <h3 style="font-size:1.5rem">This page is not usable, because... </h3>
                     <ul>
-                        <li>If the users want to find trains that travel from one city to another,
+                        <li>If users want to find trains that travel from one city to another,
                              they cannot select both departure and arrival cities on the same page.</li>
                     </ul>
 
@@ -82,13 +94,25 @@
                     <ul>
                         <li>Users cannot specify arrival and departure countries or cities.</li>
                         <li>Users cannot enter dates during which they will be traveling</li>
-                        <li>Users may have the illusion that all countries listed under “Train travel worldwide” would be reachable solely by train, because upon opening the dropdown menu, they are asked to choose a country they want to search “train travel to, in, or from”. However, that is not true for island countries like Japan.</li>
+                        <li>Users may have the illusion that all countries listed under “Train travel worldwide” 
+                            would be reachable solely by train, 
+                            because upon opening the dropdown menu, 
+                            they are asked to choose a country they want to search “train travel to, in, or from”. 
+                            However, that is not true for some countries like Japan, which is an island country 
+                            that is not connected to any other countries via underwater tunnels.</li>
                     </ul>
                
                     <h3 style="font-size:1.5rem">This page may not be accessible, because... </h3>
                     <ul>
-                        <li>WebAIM WAVE pointed out low contrasts in the navbar and the middle window of the page. I agree with this problem, because the white text that the website used on the light gray navbar and the bright picture in the middle window doesn’t stand out, which may be problematic to visually imparied people.</li>
-                        <li>WebAIM WAVE also pointed out redundant links for train travels in Azerbaijan and Armenia, which are in the left column. I agree with this problem too, because since clicking “Azerbaijan” and “Armenia” both lead to the same page titled “How to travel by train in Georgia, Armenia, Azerbaijan”, it’s better to group these three countries into one in a menu item.</li>
+                        <li>WebAIM WAVE pointed out low contrasts in the navbar and the middle window of the page. 
+                            I agree with this problem, because the white text that the website used 
+                            on the light gray navbar and the bright picture in the middle window doesn’t stand out, 
+                            which may be problematic to visually imparied people.</li>
+                        <li>WebAIM WAVE also pointed out redundant links for train travels in Azerbaijan and Armenia, 
+                            which are in the left column. I agree with this problem too, 
+                            because since clicking “Azerbaijan” and “Armenia” 
+                            both lead to the same page titled “How to travel by train in Georgia, Armenia, Azerbaijan”. 
+                            It’s better to group these three countries into one menu item.</li>
                     </ul>
                 </div>
             </div>
@@ -103,7 +127,7 @@
                     <h1 style = "font-size: 2rem">II. Visual Redesign</h1>
                 </div>
                 
-                <div class = "description">
+                <div class = "description description-prototype">
                     <h2 style="font-size:1.5rem">Low-fidelity Wireframing</h2>
                     <h3 style="font-size:1.5rem">Based on my findings from the previous part, I created annotated wireframes for desktop, tablet, and phone versions of the redesigned 
                         website. Wireframes show rough ideas about what the website may look like. In each wireframe, please refer to color-coded 
@@ -125,10 +149,11 @@
                     </div>
                 </div>
 
-                <div class = "description">
+                <div class = "description description-prototype-hifi">
                     <h2 style="font-size:1.5rem">High-Fidelity Prototyping</h2>
                     <h3 style="font-size:1.5rem">Based on wireframes, I created high-fidelity models of the webpage's desktop, tablet, and phone versions. 
-                        I assigned specific colors and shapes to the website's components and used these models when I programmed the website.</h3>
+                        I assigned specific colors and shapes to the website's components and used these models when I programmed the website. 
+                        Please note that annotations indicating webpage implementation details are in <b>yellow boxes</b>.</h3>
                     <div class = "row justify-content-center content">
                         <img src = "img/hifi.png" style = "width:50em"> 
                     </div>
@@ -141,7 +166,9 @@
             <div class = "section-title" id = "responsive-redesign">
                 <h1 style = "font-size: 2rem">III. Responsive Redesign</h1>
                 <div class = "description">
-                    I programmed the final version of the webpage based on the high-fidelity prototypes I made. <a href = "redesigned.html">Click here to view the redesigned webpage!</a>
+                   <p style="font-size:1.5rem"> I programmed the final version of the webpage based on the high-fidelity prototypes I made. 
+                    This project helped me become more familiar with the process of redesigning a website and learn aspects I need to consider when 
+                    designing a learnable, memorable, useful, and accessible website. <a href = "redesigned.html">Click here to view the redesigned webpage!</a></p>
                 </div>
                 
                 <div class = "row justify-content-center content">
