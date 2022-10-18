@@ -35,6 +35,10 @@ h1{
     padding:2rem;
 }
 
+.general-content{
+    padding-bottom: 5em;
+}
+
 .arrival{
     border: 3px solid;
     appearance:none;
@@ -61,13 +65,17 @@ h1{
     padding-left:0.25em;
 }
 
+.travel-type-container{
+    display: flex;
+    flex-flow: row wrap;
+}
 
 input[type = "checkbox"]{
     appearance:none;
     -webkit-appearance: none;
     height: 1.7em;
     width: 1.7em;
-    background-color: #FA6C05; 
+    border: 3px solid #FA6C05;
     border-radius: 5px;
     display:flex;
     align-items: center;
@@ -94,14 +102,12 @@ input[type = "checkbox"]:checked:after{
     content: "V"; 
 }
 
-.train-trip-container{
-    display: flex;
-    flex-flow: row wrap;
-}
 
 .travel-content{
     padding-left: 2.5em;
     padding-bottom: 1em;
+    display: flex;
+    flex-flow: wrap;
 }
 
 .section-title{
@@ -117,6 +123,7 @@ input[type = "checkbox"]:checked:after{
     height: 15em;
     width: 40em;
     margin-bottom: 5em;
+    margin-right: 3em;
 }
 
 .travel-description{

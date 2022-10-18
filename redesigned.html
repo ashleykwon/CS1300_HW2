@@ -31,7 +31,7 @@
         </nav>
 
         <!--Main page-->
-        <div class = "d-flex flex-column">
+        <div class = "d-flex flex-column general-content">
             <!-- <img src = "img/coffee.jpg" alt = "coffee cup image">  -->
             <div class = "text-center">
                 <h1 class = "display-1 text-dark">The Man in Seat Sixty-One</h1>
@@ -120,20 +120,27 @@
             <!--Travel Type-->
             <div class = "row text-left justify-content-left travel-content">
                 <h4 class = "text-dark">Travel Type</h4>
-                <div class = "col-lg-4 col-md-4 col-sm-12">
-                    <input id = "roundtrip-arrival"  class = "checkbox-traveltype" type="checkbox">
-                    <label for = "roundtrip-arrival"  class = "checkbox-label">Roundtrip</label>
-                </div>
-                <div class = "col-lg-4 col-md-4 col-sm-12">
-                    <input id = "oneway-arrival" class = "checkbox-traveltype" type="checkbox">
-                    <label for = "oneway-arrival" class = "checkbox-label">One-way</label>
+                <div class = "travel-type-container">
+                    <div class = "col-lg-4 col-md-4 col-sm-12">
+                        <div>   
+                            <input id = "roundtrip-arrival"  class = "checkbox-traveltype" type="checkbox">
+                        </div>  
+                        <div>
+                            <label for = "roundtrip-arrival"  class = "checkbox-label">Roundtrip</label>
+                        </div>
+                        
+                    </div>
+                    <div class = "col-lg-4 col-md-4 col-sm-12">
+                        <input id = "oneway-arrival" class = "checkbox-traveltype" type="checkbox">
+                        <label for = "oneway-arrival" class = "checkbox-label">One-way</label>
+                    </div>
                 </div>
             </div>
         </div>
 
 
         <!--Recommended train trips-->
-        <div class = "container-fluid">
+        <div class = "container-fluid general-content">
             <div class = "row text-left justify-content-center train-trip-content">
                 <div class = "section-title">
                     <h3>Recommended train trips</h3>
