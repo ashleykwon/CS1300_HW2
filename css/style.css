@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #0500FA;
+}
+
+h1{
+    padding:2rem;
+}
+
+.arrival{
+    border: 3px solid;
+    border-color: #FA03C3;  
+    background-color: white;
+}
+
+.departure{
+    border: 3px solid;
+    border-color: #8866D1; 
+    background-color: white;
+}
+
+.select-box-item{
+    color:  #FA03C3;  
+}
+
+input{
+    border: 3px solid;
+    border-color: #FA6C05; 
+    background-color: white;
+}
+
+.checkbox-label{
+    color:#FA6C05; 
+}
